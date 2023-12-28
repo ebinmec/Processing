@@ -23,6 +23,7 @@ public class OOP extends PApplet{
     }
 
     Ball[] Balls= new Ball[4];
+    
     @Override
     public void settings(){
         size(width,height);
