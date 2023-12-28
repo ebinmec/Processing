@@ -1,7 +1,7 @@
 
 import processing.core.PApplet;
 
-public class Main extends PApplet{
+public class Procedural extends PApplet{
     int width=1000,height=1000,diameter=100;
     float x1=0,x2=0,x3=0,x4=0;
     @Override
@@ -25,6 +25,6 @@ public class Main extends PApplet{
         return x+(float)speed;
     }
     public static void main(String[] args) {
-        PApplet.main("Main");
+        PApplet.main("Procedural");
     }
 }
